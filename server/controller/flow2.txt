@@ -1,0 +1,131 @@
+User -> Post[] -> comment[]
+
+
+One => Many
+User => Post
+One => Many
+Post => Comment
+
+collection: post
+
+{
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "_id": 1,
+                "message": "This is comment"
+            }
+        ]
+},{
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "_id": 1,
+                "message": "This is comment"
+            }
+        ]
+},{
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "_id": 1,
+                "message": "This is comment"
+            }
+        ]
+}
+
+post.comments.push({_id:1,message:"iu"})
+
+
+collection: register
+
+{
+        "_id" : 11,
+        "name" : "Mrunal Deshpande",
+        "mail" : "mrunaldeshpande@gmail.com",
+        "password" : "mrunal",
+        "status" : 1,
+        "role" : "user",
+        "info" : "Thu Sep 16 2021 16:58:45 GMT+0530 (India Standard Time)",
+        "friends": [1,2,3,7]
+}
+
+Page newsfeed-friends
+
+
+
+User.friends.push(useId)
+
+
+
+User.friends
+[userId]
+register
+user Details
+
+ON SAVE 
+ userId
+ get-> userName, user_photo
+
+ON SERVE 
+comment
+userId
+ get-> userName, user_photo
+
+Post
+{
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "userId": 1,
+                "userName": "Sakshi Khandelwal",
+                "user_photo":"././.png"
+                "comment": "This is comment"
+            }
+        ]
+},
+
+
+[
+    {
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "userId": 1,
+                "comment": "This is comment"
+            }
+        ]
+    },
+    {
+        "_id" : 4,
+        "texts" : "This is our Third Post from Postman.",
+        "userId" : 8,
+        "info" : "Fri Sep 17 2021 23:09:07 GMT+0530 (India Standard Time)",
+        "comments" : [
+            {
+                "userId": 1,
+                "comment": "This is comment"
+            }
+        ]
+    },
+]
+
+for loop 
+posts
+comments k liye for loop
+userName,user_photo 

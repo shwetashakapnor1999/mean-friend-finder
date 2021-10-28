@@ -1,0 +1,50 @@
+Functions
+user 
+user's posts  ✔
+user's friends
+user search
+
+Model
+users
+posts ✔
+
+Sub Model
+user.friends
+post.comments
+
+
+RESTAPI
+resoucres
+
+users
+user 
+
+id,name,user.postIDs
+1,Shubham,[2,4]
+
+
+post
+
+id,createdBy:user
+2,1
+
+
+GET 
+
+POST
+body
+
+PUT - Update
+body
+
+DELETE - Delete
+
+
+
+Manage User Page
+Task To get all User
+now Manage user 
+
+Create New Post Page
+Get my all post
+Create new Post 

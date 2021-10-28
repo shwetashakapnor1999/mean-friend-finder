@@ -1,0 +1,28 @@
+1. Server (Express.js) Serves resources 
+(GET) (file->txt,mp4,json,html), 
+(GET) Endpoints db information, fetch, user ko data send,
+(POST) User name, age -> db save kar le,
+(PUT) Update user name,
+(DELETE) Mere data delete kar
+
+GET request kar rahe hai 
+endpoint 
+/posts
+
+/posts/2
+req.params
+
+/post?user=23
+req.query
+
+POST
+/post
+user k side se
+body: {
+    userId:2
+}
+server pe 
+req.body.userId
+
+
+2. User (Browser)
